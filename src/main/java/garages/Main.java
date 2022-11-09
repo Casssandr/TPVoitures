@@ -6,11 +6,13 @@ public class Main {
 		Voiture v1 = new Voiture("123 1BC 31");
 		Garage g1 = new Garage("Castres");
 		Garage g2 = new Garage("Albi");
+		System.out.println(v1);
 		v1.entreAuGarage(g1);
 		v1.sortDuGarage();
 		v1.entreAuGarage(g2);
 		v1.sortDuGarage();
 		v1.entreAuGarage(g1);
+		//System.out.println(v1.garagesVisites());
 		v1.imprimeStationnements(System.out);
 	}
 
